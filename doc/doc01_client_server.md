@@ -15,12 +15,12 @@ Come si può notare dalla figura, di solito, insieme al server c'è un DBMS (Dat
 Proviamo a compilare la tabella definita precedentemente per stabilire se un sistema di questo tipo è un sistema distribuito.
 
 
-| Caratteristica                 | Sì/No                                                                                                 |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Più componenti autonomi       | Sì: web browser, web server, application server, dbms                                                 |
-| Componenti su macchine diverse | Sì                                                                                                    |
-| Comunicazione tramite rete     | Sì, protocollo https                                                                                  |
-| Appare come sistema unico      | Sì, ogni client ha l'impressione che le funzionalità siano implementate in locale                    |
+| Caratteristica                 | Sì/No                                                                                               |
+| -------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Più componenti autonomi       | Sì: web browser, web server, application server, dbms                                                |
+| Componenti su macchine diverse | Sì, i diversi componenti sono installati su nodi diversi                             |
+| Comunicazione tramite rete     | Sì, il termine **Web** in applicazioni Client Server Web implica l'uso del protocollo http su rete Internet                               |
+| Appare come sistema unico      | Sì, ogni client ha l'impressione che le funzionalità siano implementate in locale                   |
 | Coordinazione delle attività  | Sì, il server, il web server, il dbms devono coordinarsi per tenere coerente e funzionante il sistema |
 
 ## Vantaggi e svantaggi dell'utilizzo di una applicazione client server web
