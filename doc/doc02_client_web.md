@@ -34,7 +34,7 @@ Un form si defisce con il tag html omonimo. Nell'esempio seguente si definisce u
 Che definisce il seguente form html:
 ![esempio form](img03_form01.png)
 
-## Esercizio: predisponiamo il form
+## Esercizio 01: predisponiamo il form
 Predisponiamo questo progetto per un Client Web per ospitare un form con cui invieremo dei dati al Server.
 
 Il file index.html rappresenta il punto di partenza di un'applicazione Client Web.
@@ -67,7 +67,7 @@ Nella finestra "Simple Browser", premendo il pulsante Refresh, osserviamo il ris
 
 Abbiamo creato un form ancora vuoto. Nelle prossime sezioni aggiungeremo dei componenti al form.
 
-## Esercizio: un assaggio di cosa significa "sistema distribuito"
+## Esercizio 02: un assaggio di cosa significa "sistema distribuito"
 Sperimentiamo un primo effetto di un sistema client server web. Questo progetto è dotato di un web client (la finestra Simple Browser) e di un Web Server (Vite, vedi messaggi in Terminal). In questo contesto il web server e il web client servono per testare in tempo reale il risultato del nostro sviluppo: man mano che modifichiamo i file del nostro progetto (es. index.html) ne vediamo l'effetto in tempo reale. In questo caso particolare Web server e Web client "girano" sullo stesso host su cui stiamo sviluppando solo ai fini del test, ma comunque sfruttando l'archiettura di un sistema client-server web.
 Ma come effetto collaterale, avendo nel progetto a disposizione un web server, il nostro lavoro può essere già accessibile dai browser di tutto il mondo?. La risposta è sì. Proviamo a vedere il risultato del nostro progetto sul browser di un altro dispositivo:
 - rendiamo pubblico il nostro progetto: in PORTS, selezionare Application, tasto destro, Port Visibility, Public
