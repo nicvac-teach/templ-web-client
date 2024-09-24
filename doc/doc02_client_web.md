@@ -36,8 +36,9 @@ Che definisce il seguente form html:
 
 ## Esercizio 01: predisponiamo il form
 Predisponiamo questo progetto per un Client Web per ospitare un form con cui invieremo dei dati al Server.
+In particolare vogliamo implementare un'interfaccia cui cui l'utente può registrarsi ad un evento sportivo.
 
-Il file index.html rappresenta il punto di partenza di un'applicazione Client Web.
+Il file **index.html** rappresenta il punto di partenza di un'applicazione Client Web.
 - Aprire il file index.html e predisporlo per ospitare un form.
 - Nella sezione &lt;head> carichiamo i css di w3.css
 
@@ -53,14 +54,14 @@ Useremo W3.CSS per creare l'interfaccia utente del Client Web.
 ```html
     <div class="w3-card-4">
       <div class="w3-container w3-green">
-        <h2>Crea un account</h2>
+        <h2>Registrazione evento</h2>
       </div>
       <form class="w3-container">
       </form>
     </div>
 ```
 
-I tag %lt;div> non sono necessari per la creazione di un form, ma è consigliabile usarli per "inglobare" un form al loro interno per applicare uno stile w3.css.
+I tag &lt;div> non sono necessari per la creazione di un form, ma è consigliabile usarli per "inglobare" un form al loro interno per applicare uno stile w3.css.
 
 Nella finestra "Simple Browser", premendo il pulsante Refresh, osserviamo il risultato seguente:
 ![Risultato esercizio](./img03a_result01.png)

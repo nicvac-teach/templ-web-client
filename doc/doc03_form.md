@@ -34,8 +34,44 @@ ottenendo il seguente risultato.
 
 <br/>
 
-## Esercizio
-**DA SCRIVERE**
+## Esercizio 03 - Aggiungere nel form, l'input di testo, numerico e data
+
+Nel file **index.html**, all'interno del form già predisposto in **Esercizio 01**, aggiungere:
+- un input di testo per inserire il nome
+- un input di testo per inserire il cognome
+- un input numerico per inserire l'età
+- un input numerico per inserire la data dell'evento
+
+<details style="border: 1px solid #007bff; border-radius: 5px; padding: 10px; background-color: #f0f0f0;">
+  <summary>Solo dopo aver svolto l'esercizio, apri qui per vedere la soluzione</summary>
+
+```html
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Registrazione evento</h2>
+      </div>
+      <form class="w3-container">
+        <p>
+        <input class="w3-input" type="text" name="nome">
+        <label>Nome</label></p>
+        <p>
+        <input class="w3-input" type="text" name="cognome">
+        <label>Cognome</label></p>
+        <p>
+        <input class="w3-input" type="number" name="eta">
+        <label>Età</label></p>
+        <p>
+        <input class="w3-input" type="date" name="dataEvento">
+        <label>Data evento</label></p>
+        <p>
+      </form>
+    </div>
+
+```
+</details>
+<br/>
+
+
 
 
 [Clicca qui per la prossima lezione](./doc04_form_pwd.md)

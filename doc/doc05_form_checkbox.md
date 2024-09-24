@@ -82,4 +82,8 @@ Dopo la selezione dell'opzione, l'utente potrà vedere tutte le opzioni possibil
 ### Conclusioni
 Le check box, i radio button e le combobox sono elementi fondamentali dei form HTML. Grazie al loro utilizzo, è possibile creare interfacce utente semplici ed intuitive. L'utilizzo di w3.css può aiutare a migliorare l'aspetto estetico delle check box e dei radio button, rendendoli più piacevoli alla vista.
 
+## Esercizio 05 - Aggiungere nel form le opzioni di registrazione
+
+DA SCRIVERE
+
 <br/>
