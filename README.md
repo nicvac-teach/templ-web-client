@@ -1,4 +1,4 @@
-# Sistemi distibuiti
+# Sistemi distribuiti
 Un sistema distribuito è un insieme di componenti software indipendenti che appaiono all'utente come un unico sistema coerente.
 
 ![sistema distribuito](doc/img01_sistema_distribuito.png)
